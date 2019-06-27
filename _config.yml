@@ -1,0 +1,38 @@
+title: Design Leadership by Ladies that UX Amsterdam
+description: > # this means to ignore newlines until "baseurl:"
+  The Ladies that UX Amsterdam Design Leadership Summit brings together folks leading design teams for a one day event of learning, inspiration, and networking.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+# Build settings
+markdown: kramdown
+
+facebook:
+  app_id:
+
+logo: "../css/2016_style/img/icon-large.png"
+
+social:
+  name: Ladies that UX Amsterdam
+  link: "https://www.facebook.com/groups/ladiesthatux.ams/"
+
+
+include: ['_2016_pages', '_2017_pages']
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/groups/ladiesthatux.ams/
+  - title: twitter
+    url: https://twitter.com/ladiesthatuxams
+  - title: instagram
+    url: https://www.instagram.com/ladiesthatux.ams/
+  - title: linkedin
+    url: https://www.linkedin.com/company/ltuxams/
+
+# Build settings
+markdown: kramdown
+permalink: pretty

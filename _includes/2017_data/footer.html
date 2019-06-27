@@ -1,0 +1,37 @@
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h4>About the Community</h4>
+        <p>
+          <a href="https://www.meetup.com/Ladies-that-UX-Amsterdam/">Ladies that UX Amsterdam</a> is a welcoming and inclusive community that aims to promote female talent and increase female visibility. Our community is inclusive to all background, gender, age, race, and expertise.
+        </p>
+      </div>
+      <div class="col-md-3">
+        <h4>Connect</h4>
+        <ul>
+          <li>
+            <a href="http://ladiesthatux.com/code-of-conduct">Code Of Conduct</a>
+          </li>
+          <li>
+            <a href="<a href="mailto:amsterdam@ladiesthatux.com?subject=Ladies that UX Amsterdam">Get in touch</a>
+          </li>
+          <li>
+            <a href="http://bit.ly/join-ltux-amsterdam">Join our Slack group</a>
+          </li>
+          <li>
+            <a href="https://www.meetup.com/Ladies-that-UX-Amsterdam/">Meetup Events</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h4>Follow Us</h4>
+        <ul class="list-inline social-buttons">
+          {% for network in site.social %}
+          <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

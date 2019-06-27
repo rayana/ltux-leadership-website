@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<style type="text/css">
+  /*INCLUDE MAIN CSS FILE*/
+  {% capture criticalcss %}
+    {% include /2016_css/critical.scss %}
+  {% endcapture %}
+  {{ criticalcss | scssify }}
+</style>
+
+{% include 2017_data/js.html %}
+{% include 2017_data/head.html %}
+
+<body id="page-top" class="index">
+
+  {% include 2017_data/header-home.html %}
+
+  <section class="bg-light-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% include /2017_data/footer.html %}
+
+</body>
+
+</html>
