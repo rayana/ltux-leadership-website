@@ -11,10 +11,10 @@
               <div class="col-lg-8 text-center">
             {% for post in site.data.twenty_17.speakers %}
                 <div class="col-md-4 col-sm-6 speakers-item">
-                    <a href="{{ site.url }}/speakers" class="speakers-link">
+                    <a href="{{{ root_url }}/{{ base.url }}/speakers" class="speakers-link">
                         <div class="speakers-hover">
                         </div>
-                        <img src="../css/2017_style/img/speaker/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                        <img src="{{ site.url }}/{{ site.baseurl }}/css/2017_style/img/speaker/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="speakers-caption">
                         <h4>{{ post.title }}</h4>
