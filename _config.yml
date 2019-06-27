@@ -1,8 +1,8 @@
 title: Design Leadership by Ladies that UX Amsterdam
 description: > # this means to ignore newlines until "baseurl:"
   The Ladies that UX Amsterdam Design Leadership Summit brings together folks leading design teams for a one day event of learning, inspiration, and networking.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "/ltuxamsterdam" # the subpath of your site, e.g. /blog
+url: "https://rayana.github.io" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
