@@ -6,8 +6,6 @@ url: "https://rayana.github.io" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
-root: /octo-5
-
 social:
   name: Ladies that UX Amsterdam
   link: "https://www.facebook.com/groups/ladiesthatux.ams/"
