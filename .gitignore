@@ -1,3 +1,4 @@
+.gitignore
 _site
 _sass/2016_sass
 .sass-cache
